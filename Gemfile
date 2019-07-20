@@ -1,13 +1,13 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
-  gem "shoulda", ">= 0"
-  gem "rdoc", "~> 3.12"
-  gem "bundler", "~> 1.0.0"
-  gem "jeweler", "~> 1.8.3"
+  gem 'bundler', '2.0.2'
+  gem 'jeweler', '~> 2.3.9'
+  gem 'rdoc', '~> 3.12'
+  gem 'shoulda', '>= 0'
 end
 
-gem "icalendar", ">= 0"
-gem "httparty", ">= 0"
+gem 'httparty', '>= 0'
+gem 'icalendar', '~> 2.4.0'
